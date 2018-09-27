@@ -1,0 +1,321 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2018, 8:40:39 PM
+    Author     : Bekon0700
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: arial,sans-serif,serif;
+    font-size: 15px;
+    line-height: 22px;
+    background-color: #D6D6D6;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    min-height: 80px;
+    border-bottom: 1.5px solid #D00C15;
+    background: #3D534D;
+}
+
+.social_logo img{
+    width: 5%;
+    height: 5%;
+    float: right;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid #573636;
+
+}
+/*.social_logo{
+    float: right;
+}*/
+
+.mobile{
+    font-family: 'Lato', sans-serif;
+    float: left;
+    margin-top: 28px;
+}
+
+/*--------showcase------*/
+
+
+.showcase{
+    min-height: 80px;
+    margin-top: 5px;
+    /*border-bottom: 2px solid #D00C15;*/
+}
+
+.logo h1{
+    float: left;
+    font-size: 38px;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 25px;
+    margin-left: 10px;
+    color: #172322;
+}
+
+.coffee{
+    color: #772209;
+}
+
+.search_bar{
+    float: right;
+    margin-top: 20px;
+}
+
+.search_bar input[type="search"]{
+    padding: 10px 15px;
+    color: black;
+    font-size: 20px;
+}
+
+ .btn{
+    padding: 11px 25px;
+    color: #3BD5C8;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    background-color: #772209;
+    margin-left: 3px;
+    transition: 1.5s;
+}
+
+.search_bar .btn:hover{
+    color: #3BD5C8;
+    background: #4D561D;
+}
+
+
+/*-------navigation bar----*/
+
+.nav{
+    min-height: 80px;
+    border-bottom:  1.5px solid #D00C15; 
+    /*margin-bottom: 10px;*/
+}
+
+.nav .navigation{
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+
+}
+
+.navigation ul a li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+/*    margin-left: 170px;
+    margin-top: 10px;*/
+    padding: 9px 85px;
+    background-color: #4D561D;
+    color: white;
+    transition: 1.5s;
+    font-family: "lobster";
+    font-weight: bold;
+}
+
+.navigation ul a li:hover{
+    background-color: #DEE3C7;
+    color: #172322;
+    font-family: "lobster";
+}
+
+/*--------home page-----*/
+
+.home_page{
+    /*margin-top: 30px;*/
+    min-height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/bg_img.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    /*background-attachment: fixed;*/
+}
+
+.home_page .container h1{
+    /*margin-top: 10px;*/
+    color: #27B0A4;
+    font-size: 80px;
+    font-family:  'Courgette', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    /*border: 1px solid white;*/
+    padding-top: 250px;
+    margin-bottom: 40px;
+}
+
+.home_page .btn{
+    padding: 15px 40px;
+    font-family: "courgette", cursive;
+    transition: 1s;
+}
+
+.home_page .btn:hover{
+    background-color: #DEE3C7;
+    color: #172322;
+    font-family: "lobster";
+}
+
+/*---------about--------*/
+
+.about{
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1.5px solid #3E0C6F;
+}
+
+.about h1{
+    font-family: 'Bree Serif', serif;
+    padding: 30px;
+    font-size: 45px;
+    color: #3E0C6F;
+}
+
+.about .description{
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+
+/*-------------photo gallery-------*/
+
+.photo_gallery {
+    min-height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/gallery_bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border-bottom: 1.5px solid #27252E;
+}
+
+.photo_gallery h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #AC9590;
+    padding:  45px;
+    letter-spacing: 13px;
+    font-family: 'Bree Serif', serif;
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+}
+
+.pic{
+    margin-top: 25px;
+}
+
+.photo_gallery .pic img{
+    height: 300px;
+    width: 32%;
+    float: left;
+    border: 3px solid #250524;
+    margin: 2px;
+}
+
+/*--------contact----*/
+
+.contact{
+    min-height: 600px;
+    margin-top: 100px;
+    border-bottom: 1.5px solid #B65641;
+
+}
+
+.contact .form_box{
+    background-color: #229191;
+    border: 2px solid #3BD5C8;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact .form_box h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #3E0C6F;
+    margin-bottom: 25px;
+    /*padding:  30px;*/
+    /*letter-spacing: 13px;*/
+    font-family: 'Bree Serif', serif;
+    /*text-transform: uppercase;*/
+    /*font-variant: small-caps;*/
+}
+
+.form_box input{
+    padding: 10px 15px;
+    color: black;
+    font-size: 20px;
+}
+
+.form_box textArea{
+    padding: 10px 18px;
+    color: black;
+    font-size: 20px;
+}
+
+.form_box label{
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+
+.form_box .btn{
+    padding: 15px 113px;
+    transition: 1s;
+}
+
+.form_box .btn:hover{
+    background-color: #DEE3C7;
+    color: #172322;
+    font-family: "lobster";
+}
+
+.map iframe{
+    width: 50%;
+    height: 525px;
+    float: right;
+    border-bottom: 2px solid #250524;
+}
+
+
+/*-------footer----*/
+footer{
+    background: #3D534D;
+}
+
+footer .container h4{
+    font-weight: lighter;
+    color: #0CAFAF;
+    letter-spacing: 10px;
+    font-family: 'Bree Serif', serif;
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+    text-align: center;
+    padding: 5px;
+}
